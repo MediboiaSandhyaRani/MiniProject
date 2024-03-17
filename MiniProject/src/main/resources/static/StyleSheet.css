@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.indexHeading
+{
+    margin-top:80px;
+    padding-left:400px;
+    font-size: 35px;
+    color: black;
+
+}
+
+.index
+{
+    margin-top:30px;
+    padding-left:400px;
+    font-size: 30px;
+    color: black;
+}
+
+.mainHeader
+{
+    margin-top:80px;
+    padding-left:400px;
+}
+.mainContent
+{
+    display: flex;
+    flex-direction:column ;
+    border:5px solid yellow;
+    border-radius: 15px;
+    margin: 30px 450px 1000px 350px;
+    padding: 25px 65px;
+
+}
+.mainPage
+{
+    margin-top:20px;
+    padding-left:850px;
+    color: black;
+    font-size: 30px;
+}
+.enterAgainData
+{
+    margin-top:20px;
+    padding-left:850px;
+    color: black;
+    font-size: 20px;
+}
+
+.tableHeader
+{
+    margin-top:40px;
+    padding-left:550px;
+}
+.table
+{
+    width: 100%;
+    margin-top:30px;
+    padding-left:400px;
+
+}

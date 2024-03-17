@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/StyleSheet.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User List</title>
+    <style type="text/css">
+        body{
+            background-color: darkgrey;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size:cover;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+<div class="mainPage">
+    <a href="./HomePage" >Home Page</a>
+</div>
+<div class="enterAgainData">
+    <a href="./IndexPage" >Please Enter again the User data</a>
+</div>
+<div class="tableHeader">
+    <h2>User List</h2>
+</div>
+<div class="table">
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Age</th>
+            <th>DateOfBirth</th>
+        </tr>
+        <tr th:each="user : ${users}">
+            <td th:text="${user.id}"></td>
+            <td th:text="${user.name}"></td>
+            <td th:text="${user.email}"></td>
+            <td th:text="${user.age}"></td>
+            <td th:text="${user.dateOfBirth}"></td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
